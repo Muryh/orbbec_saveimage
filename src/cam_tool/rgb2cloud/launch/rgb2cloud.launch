@@ -1,0 +1,3 @@
+<launch>
+    <node name="rgb2cloud" pkg="rgb2cloud" type="rgb2cloud" output="screen" required="true"/>
+</launch>

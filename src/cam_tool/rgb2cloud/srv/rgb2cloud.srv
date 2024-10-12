@@ -1,0 +1,6 @@
+string rgbBaseFileName
+int64 areaNum
+area[] listAreas
+---
+bool ok
+pcArea[] listPcAreas

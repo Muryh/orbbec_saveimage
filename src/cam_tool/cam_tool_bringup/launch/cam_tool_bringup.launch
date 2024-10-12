@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find orbbec_camera)/launch/femto_bolt.launch" />
+    <include file="$(find pc_image_save)/launch/pc_image_save.launch" />
+    <include file="$(find rgb2cloud)/launch/rgb2cloud.launch" />
+    <!-- 测试UI -->
+    <include file="$(find select_area)/launch/select_area.launch" />
+</launch>
