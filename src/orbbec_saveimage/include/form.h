@@ -36,7 +36,7 @@ private:
   bool f,d;
   std::vector<QPoint> points;
   std::vector<std::vector<QPoint>> areas;
-  std::string baseFileName = "/home/joo/2";
+  std::string baseFileName = "/home/pic";
 
 private slots:
   void takePhoto();
@@ -48,6 +48,7 @@ private slots:
 
 signals:
   void startSaveImagAndPc(std::string baseFileNmae);//保存图片
+  void showPic();
 };
 
 #endif // FORM_H

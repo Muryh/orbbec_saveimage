@@ -1,0 +1,8 @@
+prefix=/home/joo/sifc/ros/Orbbec_saveImage/devel
+
+Name: orbbec_camera
+Description: Description of orbbec_camera
+Version: 1.5.8
+Cflags: -I/home/joo/sifc/ros/Orbbec_saveImage/devel/include -I/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_camera/include
+Libs: -L${prefix}/lib -lorbbec_camera
+Requires: camera_info_manager cv_bridge dynamic_reconfigure image_geometry image_transport message_filters message_runtime roscpp sensor_msgs std_srvs tf2 tf2_ros

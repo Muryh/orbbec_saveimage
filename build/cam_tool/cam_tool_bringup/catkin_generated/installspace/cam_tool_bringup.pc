@@ -1,0 +1,8 @@
+prefix=/home/joo/sifc/ros/Orbbec_saveImage/install
+
+Name: cam_tool_bringup
+Description: Description of cam_tool_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

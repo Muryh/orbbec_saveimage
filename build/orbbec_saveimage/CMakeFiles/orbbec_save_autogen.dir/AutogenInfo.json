@@ -1,0 +1,119 @@
+{
+	"BUILD_DIR" : "/home/joo/sifc/ros/Orbbec_saveImage/build/orbbec_saveimage/orbbec_save_autogen",
+	"CMAKE_BINARY_DIR" : "/home/joo/sifc/ros/Orbbec_saveImage/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/joo/sifc/ros/Orbbec_saveImage/build/orbbec_saveimage",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/joo/sifc/ros/Orbbec_saveImage/src",
+	"HEADERS" : 
+	[
+		[
+			"/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage/include/form.h",
+			"MU",
+			"6YEA5652QU/moc_form.cpp"
+		],
+		[
+			"/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage/include/takephoto_service.h",
+			"MU",
+			"6YEA5652QU/moc_takephoto_service.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/joo/sifc/ros/Orbbec_saveImage/build/orbbec_saveimage/orbbec_save_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/joo/sifc/ros/Orbbec_saveImage/build/orbbec_saveimage/orbbec_save_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ALL_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_IOSTREAMS_DYN_LINK",
+		"BOOST_SERIALIZATION_DYN_LINK",
+		"BOOST_SYSTEM_DYN_LINK",
+		"H5_BUILT_AS_DYNAMIC_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB",
+		"ROSCONSOLE_BACKEND_LOG4CXX",
+		"ROS_BUILD_SHARED_LIBS=1",
+		"ROS_PACKAGE_NAME=\"orbbec_saveimage\"",
+		"qh_QHpointer",
+		"vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)",
+		"vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/joo/sifc/ros/Orbbec_saveImage/devel/include",
+		"/opt/ros/noetic/include",
+		"/opt/ros/noetic/include/xmlrpcpp",
+		"/usr/include/opencv4",
+		"/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage/include",
+		"/usr/local/include/vtk-8.2",
+		"/usr/include/eigen3",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/local/include/pcl-1.13",
+		"/usr/include/ni",
+		"/usr/include/openni2",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSql",
+		"/usr/local/include/vtk-8.2/vtkogg/include",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/joo/sifc/ros/Orbbec_saveImage/build/orbbec_saveimage/orbbec_save_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/joo/sifc/ros/Orbbec_saveImage/build/orbbec_saveimage/CMakeFiles/orbbec_save_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/joo/sifc/ros/Orbbec_saveImage/build/orbbec_saveimage/CMakeFiles/orbbec_save_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage/src/form.cpp",
+			"MU"
+		],
+		[
+			"/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage/src/main.cpp",
+			"MU"
+		],
+		[
+			"/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage/src/takephoto_service.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,3 @@
+<launch>
+    <node name="orbbec_save" pkg="orbbec_saveimage" type="orbbec_save" output="screen" required="true"/>
+</launch>

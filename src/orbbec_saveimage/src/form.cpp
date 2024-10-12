@@ -15,9 +15,9 @@ Form::Form(QWidget *parent) :
   takephoto(new takephoto_service)
 {
   ui->setupUi(this);
-//  QObject::connect(ui->BT_takePhoto, &QPushButton::clicked, this, &Form::takePhoto);
-  QObject::connect(ui->BT_takePhoto, &QPushButton::clicked, this, &Form::showCloud);
-  QObject::connect(ui->BT_takePhoto, &QPushButton::clicked, this, &Form::showRGB);
+  QObject::connect(ui->BT_takePhoto, &QPushButton::clicked, this, &Form::takePhoto);
+  QObject::connect(this, &Form::showPic, this, &Form::showCloud);
+  QObject::connect(this, &Form::showPic, this, &Form::showRGB);
 
 
   QObject::connect(this, &Form::startSaveImagAndPc, takephoto, &takephoto_service::startSaveImagAndPc);
@@ -77,6 +77,7 @@ void Form::photoOK()
 
   QString qBaseFileName = QString::fromStdString(baseFileName);
   QMessageBox::information(this, "提示", "已保存点云到位置：" + qBaseFileName);
+  emit showPic();
 
 }
 
