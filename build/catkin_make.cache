@@ -1,2 +1,0 @@
-cam_tool/cam_tool_bringup:cam_tool/pc_image_save:cam_tool/rgb2cloud:orbbec_camera:orbbec_saveimage
--DCATKIN_DEVEL_PREFIX=/home/joo/sifc/ros/Orbbec_saveImage/devel -DCMAKE_INSTALL_PREFIX=/home/joo/sifc/ros/Orbbec_saveImage/install -G Unix Makefiles

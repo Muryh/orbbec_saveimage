@@ -1,8 +1,0 @@
-prefix=/home/joo/sifc/ros/Orbbec_saveImage/devel
-
-Name: orbbec_saveimage
-Description: Description of orbbec_saveimage
-Version: 0.0.0
-Cflags: -I/home/joo/sifc/ros/Orbbec_saveImage/src/orbbec_saveimage/include
-Libs: -L${prefix}/lib -lorbbec_saveimage
-Requires: 
